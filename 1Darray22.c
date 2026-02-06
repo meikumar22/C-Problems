@@ -9,25 +9,11 @@ int main(){
     }
 
     int a = 0;
-    int b = 0;
-    int c = 0;
 
-    for(int j=0; j<n; j++){
-        for(int k=0; k<n; k++){
-            if(arr[j]<arr[k]){
-                a = arr[j];
-                break;
-            }
-        }
-        for(int l=j+1; l<n; l++){
-            if(arr[j]>arr[l]){
-                b = arr[j];
-                break;
-            }
-        }
-        if(a==b){
-            c++;
-        }
+    for(int j=1; j<n-1; j++){
+        if(arr[j] > arr[j-1] && arr[j] > arr[j+1]){
+            a++;
     }
-    printf("%d", c);
+    printf("%d", a);
+
 }
