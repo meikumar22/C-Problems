@@ -15,14 +15,14 @@ int main(){
         a = 0;
         for(int k=0; k<j; k++){
             if(arr[j]==arr[k]){
-                a = arr[k];
-                break;
+                a = 1;
             }
         }
         if(a==0){
             printf("%d ", arr[j]);
         }
     }
-
+    return 0;
 
 }
+
