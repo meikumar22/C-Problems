@@ -19,14 +19,11 @@ int main(){
         for(int j=0; j<c; j++){
             a += arr[i][j];
         }
-        if(i==0){
-            b = a; 
-            index = 0;
-        }
-        else if(a<b){
+        if(a!=0 && a<b){
             b = a;
             index = i;
         }
     }
     printf("%d ", index);
+
 }
