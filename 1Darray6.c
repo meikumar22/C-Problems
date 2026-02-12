@@ -9,8 +9,10 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
+    int a;
+    
     for(int j=0; j<n; j++){
-        int a = 0;
+        a = 0;
         for(int k=0; k<j; k++){
             if(arr[j]==arr[k]){
                 a = arr[k];
@@ -21,5 +23,6 @@ int main(){
             printf("%d ", arr[j]);
         }
     }
+
 
 }
