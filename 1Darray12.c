@@ -28,4 +28,5 @@ int main(){
     if(b==0){
         printf("No pair");
     }
+
 }
