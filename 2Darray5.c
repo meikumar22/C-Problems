@@ -21,7 +21,7 @@ int main(){
         }
     }
 
-    a = sum/6;
+    a = sum/c;
     int count = 0;
 
     for(int i=0; i<r; i++){
@@ -34,4 +34,5 @@ int main(){
     
     
     printf("%d", count);
+
 }
