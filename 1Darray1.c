@@ -23,4 +23,5 @@ int main(){
     printf("second highest : %d", max1);
 
     return 0;
+
 }
